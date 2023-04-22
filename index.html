@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- OWL CSS Link --><link rel="stylesheet" href="cssfiles/owl.carousel.css">
+  <link rel="stylesheet" href="cssfiles/owl.theme.green.css">
+  <!-- Owl javascript link --> <script src="jsfiles/jquery.min.js"></script>
+  <script src="jsfiles/owl.carousel.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-blk position-sticky top-0 ">
+    <div class="container-fluid nav-bar">
+      <!-- Amazon logo begin -->
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">.in</a>
+      <img src="" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Amazon logo ends -->
+      <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <!-- Select Your Address begin-->
+        <a class="navbar-brand btn-address" href="#">
+          <p>Hello</p>
+          <p style="font-size: 16px;">Select Your Address</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Select Your Address ends -->
+        <!-- Search Bar begin -->
+        <form class="d-flex align-items-center searchbar">
+          <a class="color-f3 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            All
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          <input class="form-control mx" style="border-radius:0px;" type="search" placeholder="Search" aria-label="Search">
+          <button class="nav-btn btn" type="submit" style="background-color:rgb(254, 189, 106); border-radius:0px 5px 5px 0px;"><img
+            src="/images/search.png" alt=""></button>
+        </form>
+        <!-- Search Bar ends -->
+        <!-- List Last 2 dropdown tabs begin -->
+        <ul class="navbar-nav mb-lg-0 tbs" >
+          <!-- Language Select begin -->
+          <li class="nav-item dropdown wid">
+            <a class="nav-link dropdown-toggle pt-3 ps-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><img src="images/indiaflag.png" alt="" style="width:20px; height: 20px;">
+              EN
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <!-- Language Select ends -->
+          <!-- Sign in  begin -->
+          <li class="nav-item dropdown signin">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <p class="fir">Hello, sign in</p>
+              <p class="sec" style="font-size: 14px; font-weight: bold; margin-bottom: -20px;">Account & Lists</p>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a class="navbar-brand btn-return" href="#">
+          <p>Return</p>
+          <p style="font-size: 14px;">& Orders</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand cart" href="#"><img src="images/cart.png" alt="">Cart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <ul class=" navbar top2 nav pt-4 ">
+      <a class="droptab nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      <li class="nav-item uni-padding">
+          <a class=" nav-link text-white active" aria-current="page" href="#">All</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Best Seller</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Today's Deal</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Moblie</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Customer Services</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Book</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Electronics</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Fahion</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">Home & Kitchen</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">New Release</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#">SBI Offer Card ends in</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-white " href="#" id="demo"></a>
+      </li>
+  </ul>
+  </section>
+  <section></section>
+  <!-- body1 start -->
+  <section>
+      <div id="carouselExampleControls" class="body1-1 carousel slide " data-bs-ride="carousel">  
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="images/slider/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/slider/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/slider/3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item ">
+                  <img src="images/slider/4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/slider/5.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/slider/6.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/slider/7.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/slider/8.jpg" class="d-block w-100" alt="...">
+              </div>
+          </div>
+          <button class="bdy1-btn carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="bdy2-btn carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      <div class="body1-2 container-fluid ">
+          <div class="row uni-padding">
+              <div class="  col-md  mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Up to 60% off | Upgrade to Smart TVs</h4>
+                  <img src="images/body1/1.jpg" alt="" style="width: 100%; height: 68%;">
+                  <p style="color: blue; margin-top: 10px;">see all offer</p>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Starting ₹199 | Men's fashion</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body1/g1pics/1.jpg" alt=""
+                              style="width: 100%; height: 90%;">
+                          <p class="body1para">clothing</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body1/g1pics/2.jpg" alt=""
+                              style="width: 100%; height: 90%;">
+                          <p class="body1para">Footwear</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                      <div class="col-6 "><img src="images/body1/g1pics/3.jpg" alt=""
+                              style="width: 100%; height: 90%;">
+                          <p class="body1para">Watches</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body1/g1pics/4.jpg" alt=""
+                              style="width: 100%; height: 90%;">
+                          <p class="body1para">Bags and Luggage</p>
+                      </div>
+                      <p style="color: blue; margin-top: 30px;">see all offer</p>
+                  </div>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Shop all festive deals</h4>
+                  <img src="images/body1/2.jpg" alt="" style="width: 100%; height: 73%;">
+                  <p style="color: blue; margin-top: 17px;">see all upcoming offer</p>
+              </div>
+              <div class=" col-md mt-3">
+                  <div class="body1-btn row bg-white">
+                      <h4 class="mt-3 mb-2">Sign in for your best experience</h4>
+                      <button>Sign in Securely</button>
+                  </div>
+                  <div class="row mt-4">
+                      <img src="images/body1/3.jpg" alt="" style="width: 100%;">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- body1 ends  -->
+  <!-- body2 start -->
+  <div class="body2 container-fluid ">
+      <div class="row uni-padding">
+          <div class="  col-md mt-3 bg-white me-3 ">
+              <h4 class="mt-3 mb-2">Starting ₹49 | Home, Kitchen & more</h4>
+              <div class="row">
+                  <div class="col-6"><img src="images/body2/1.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Starting 49 | Home & Decor </p>
+                  </div>
+                  <div class="col-6"><img src="images/body2/2.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Under 999 | cookware & dining</p>
+                  </div>
+              </div>
+              <div class="row mt-4 ">
+                  <div class="col-6"><img src="images/body2/3.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Starting 49 | Sports & Fitness</p>
+                  </div>
+                  <div class="col-6"><img src="images/body2/4.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Starting 79 | Home Improvement</p>
+                  </div>
+                  <p style="color: blue; margin-top: 30px;">see all offer</p>
+              </div>
+          </div>
+          <div class="  col-md mt-3 bg-white me-3 ">
+              <h4 class="mt-3 mb-2">Great Indian Festival</h4>
+              <div class="row">
+                  <div class="col-6 "><img src="images/body2/5.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Win a chance phone every hour</p>
+                  </div>
+                  <div class="col-6 "><img src="images/body2/6.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Shop from 60+ products</p>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                  <div class="col-6 "><img src="images/body2/7.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Festive offer by AmazonPay</p>
+                  </div>
+                  <div class="col-6 "><img src="images/body2/8.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Explore what's new today</p>
+                  </div>
+                  <p style="color: blue; margin-top: 59px;">see all offer</p>
+              </div>
+          </div>
+          <div class=" col-md mt-3 bg-white me-3 ">
+              <h4 class="mt-3 mb-2">Up to 30% off | Travel tickets</h4>
+              <div class="row">
+                  <div class="col-6 "><img src="images/body2/9.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Save upto 30% off on flights</p>
+                  </div>
+                  <div class="col-6 "><img src="images/body2/10.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Hassel free bus booking</p>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                  <div class="col-6 "><img src="images/body2/11.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Zero convinence fees on train ticket</p>
+                  </div>
+                  <div class="col-6 "><img src="images/body2/12.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">Product for your travel needs</p>
+                  </div>
+                  <p style="color: blue; margin-top: 30px;">see all offer</p>
+              </div>
+          </div>
+          <div class=" col-md mt-3 bg-white me-3 ">
+              <h4 class="mt-3 mb-2">Up to 70% off | Amazon Brands & more</h4>
+              <div class="row">
+                  <div class="col-6 "><img src="images/body2/13.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">upto 55% off | Tv, Refrigerators & more</p>
+                  </div>
+                  <div class="col-6 "><img src="images/body2/14.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">upto 60% off | Home & Kitchen</p>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                  <div class="col-6 "><img src="images/body2/15.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">up to 60% off | Daily essential</p>
+                  </div>
+                  <div class="col-6 "><img src="images/body2/16.jpg" alt="" style="width: 100%; height: 90%;">
+                      <p class="body1para">under 599 | clothing shoes & more</p>
+                  </div>
+                  <p style="color: blue; margin-top: 30px;">see all offer</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- body2 ends  -->
+  <!-- body3 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div>
+              <h4 style="font-weight: 600; float: left;">Blockbuster Deals</h4>
+          <p style="color: blue; padding: 5px; float: left; margin-left: 15px;">see all offer</p>
+          </div>
+          <div class="product-slider1 owl-carousel owl-theme" style="clear:both">
+              <div class="item"><img src="images/body3/1.png" alt=""></div>
+              <div class="item"><img src="images/body3/2.png" alt=""></div>
+              <div class="item"><img src="images/body3/3.png" alt=""></div>
+              <div class="item"><img src="images/body3/4.png" alt=""></div>
+              <div class="item"><img src="images/body3/5.png" alt=""></div>
+              <div class="item"><img src="images/body3/6.png" alt=""></div>
+              <div class="item"><img src="images/body3/7.png" alt="" ></div>
+              <div class="item"><img src="images/body3/8.png" alt="" ></div>
+              <div class="item"><img src="images/body3/9.png" alt=""></div>
+              <div class="item"><img src="images/body3/10.png" alt=""></div>
+              <div class="item"><img src="images/body3/11.png" alt=""></div>
+              <div class="item"><img src="images/body3/12.png" alt=""></div>
+              <div class="item"><img src="images/body3/13.png" alt=""></div>
+              <div class="item"><img src="images/body3/14.png" alt=""></div>
+              <div class="item"><img src="images/body3/15.png" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- body3 ends  -->
+  <!-- body4 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div>
+              <h4 style="font-weight: 600; float: left;">Up to 50% off | Kitchen & dining picks from women-led brands </h4>
+          <p style="color: blue; padding: 5px; float: left; margin-left: 15px;">see all offer</p>
+          </div>
+          <div class="product-slider2 owl-carousel owl-theme" style="clear:both">
+              <div class="item"><img src="images/body4/1.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/2.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/3.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/4.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/5.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/6.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/7.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/8.jpg" alt="" ></div>
+              <div class="item"><img src="images/body4/9.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/10.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/11.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/12.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/13.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/14.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/15.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/16.jpg" alt=""></div>
+              <div class="item"><img src="images/body4/17.jpg" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- body4 ends  -->
+  <!-- body5 start -->
+  <section>
+      <div class="body2 container-fluid ">
+          <div class="row uni-padding">
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">50% - 80% off | Gifting ideas</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body5/1.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 49 | Home & Decor </p>
+                      </div>
+                      <div class="col-6 "><img src="images/body5/2.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Under 999 | cookware & dining</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4 ">
+                      <div class="col-6 "><img src="images/body5/3.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 49 | Sports & Fitness</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body5/4.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 79 | Home Improvement</p>
+                      </div>
+                      <p style="color: blue; margin-top: 30px;">see all offer</p>
+                  </div>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Register for free | Get business exclusive deals</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body5/5.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Win a chance phone every hour</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body5/6.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Shop from 60+ products</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                      <div class="col-6 "><img src="images/body5/7.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Festive offer by AmazonPay</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body5/8.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Explore what's new today</p>
+                      </div>
+                      <p style="color: blue; margin-top: 59px;">see all offer</p>
+                  </div>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Up to 70% off | Refurbished products</h4>
+                  <img src="images/body5/9.jpg" alt="" style="width: 100%; height: 73%;">
+                  <p style="color: blue; margin-top: 17px;">see all offer</p>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Up to 40% off | Mobiles and accessories</h4>
+                  <img src="images/body5/10.jpg" alt="" style="width: 100%; height: 73%;">
+                  <p style="color: blue; margin-top: 17px;">see all upcoming offer</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- body5 ends  -->
+  <!-- body6 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div>
+              <h4 style="font-weight: 600; float: left;">Up to 50% off | New launches </h4>
+          <p style="color: blue; padding: 5px; float: left; margin-left: 15px;">see all offer</p>
+          </div>
+          <div class="product-slider2 owl-carousel owl-theme" style="clear:both">
+              <div class="item "><img src="images/body6/1.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/2.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/3.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/4.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/5.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/6.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/7.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/8.jpg" alt="" ></div>
+              <div class="item "><img src="images/body6/9.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/10.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/11.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/12.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/13.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/14.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/15.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/16.jpg" alt=""></div>
+              <div class="item "><img src="images/body6/17.jpg" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- body6 ends  -->
+  <!-- body7 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div class="col"><img src="/images/body7/GW-editorial_1150x323._CB611152745_.jpg" alt="" style="width: 100%;"></div>
+      </div>
+  </section>
+  <!-- body7 ends  -->
+  <!-- body8 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div>
+              <h4 style="font-weight: 600; float: left;">Up to 60% off | Home décor picks from local shops</h4>
+          <p style="color: blue; padding: 5px; float: left; margin-left: 15px;">see all offer</p>
+          </div>
+          <div class="product-slider2 owl-carousel owl-theme" style="clear:both">
+              <div class="item"><img src="images/body8/1.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/2.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/3.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/4.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/5.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/6.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/7.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/8.jpg" alt="" ></div>
+              <div class="item"><img src="images/body8/9.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/10.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/11.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/12.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/13.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/14.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/15.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/16.jpg" alt=""></div>
+              <div class="item"><img src="images/body8/17.jpg" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- body8 ends  -->
+  <!-- body9 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div class="col"><img src="/images/body9/970X250-_desktop_banner.jpg" alt="" style="width: 100%;"></div>
+      </div>
+  </section>
+  <!-- body9 ends  -->
+  <!-- body10 start -->  
+  <section>
+      <div class="body2 container-fluid ">
+          <div class="row uni-padding">
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Starting ₹49 I Home, Kitchen & Outdoors</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body10/1.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 79 | car & bike accessories </p>
+                      </div>
+                      <div class="col-6 "><img src="images/body10/2.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Under 399 | furniture</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4 ">
+                      <div class="col-6 "><img src="images/body10/3.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting +9 | power tool & more</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body10/4.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 99 | Garden & outdoor</p>
+                      </div>
+                      <p style="color: blue; margin-top: 30px;">see all offer</p>
+                  </div>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Starting ₹199 | Women's fashion</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body10/5.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Win a chance phone every hour</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body10/6.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Shop from 60+ products</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                      <div class="col-6 "><img src="images/body10/7.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Festive offer by AmazonPay</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body10/8.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Explore what's new today</p>
+                      </div>
+                      <p style="color: blue; margin-top: 59px;">see all offer</p>
+                  </div>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Save more with Amazon Coupons</h4>
+                  <img src="images/body10/9.jpg" alt="" style="width: 100%; height: 73%;">
+                  <p style="color: blue; margin-top: 17px;">see all offer</p>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Starting ₹49 | Amazon Brands & more</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body10/10.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 49 | Grosery & household supplies</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body10/11.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 99 | baby product</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                      <div class="col-6 "><img src="images/body10/12.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 49 |beauty & grooming</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body10/13.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 49 |top deal's</p>
+                      </div>
+                      <p style="color: blue; margin-top: 59px;">see all offer</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- body10 ends  -->
+  <!-- body11 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div>
+              <h4 style="font-weight: 600; float: left;">Up to 60% off | Shop for new kitchenware from local shops</h4>
+          <p style="color: blue; padding: 5px; float: left; margin-left: 15px;">see all offer</p>
+          </div>
+          <div class="product-slider2 owl-carousel owl-theme" style="clear:both">
+              <div class="item"><img src="images/body11/1.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/2.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/3.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/4.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/5.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/6.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/7.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/8.jpg" alt="" ></div>
+              <div class="item"><img src="images/body11/9.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/10.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/11.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/12.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/13.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/14.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/15.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/16.jpg" alt=""></div>
+              <div class="item"><img src="images/body11/17.jpg" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- body11 ends  -->
+  <!-- body12 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div>
+              <h4 style="font-weight: 600; float: left;">Up to 60% off | Shop for new kitchenware from local shops</h4>
+          <p style="color: blue; padding: 5px; float: left; margin-left: 15px;">see all offer</p>
+          </div>
+          <div class="product-slider2 owl-carousel owl-theme" style="clear:both">
+              <div class="item"><img src="images/body12/1.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/2.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/3.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/4.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/5.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/6.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/7.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/8.jpg" alt="" ></div>
+              <div class="item"><img src="images/body12/9.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/10.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/11.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/12.jpg" alt=""></div>
+              <div class="item"><img src="images/body12/13.jpg" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- body12 ends  -->
+  <!-- body13 start -->
+  <section>
+      <div class="body2 container-fluid ">
+          <div class="row uni-padding">
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Great Indian Festival | Brands in Focus</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body13/1.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Samsung mobile: Starting 9,499</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body13/2.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">IQOO mobiles: Starting 12,499</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4 ">
+                      <div class="col-6 "><img src="images/body13/3.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Xiaomi mobiles: Starting 6,499</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body13/4.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">L'Oreal: upto 50% off</p>
+                      </div>
+                      <p style="color: blue; margin-top: 60px;">see all offer</p>
+                  </div>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Up to 75% off | Amazon Brands & more</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body13/5.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">Starting 8,099 | Smart Led tv</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body13/6.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">up to 50% off | AC & more</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                      <div class="col-6 "><img src="images/body13/7.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">up to 75% off | Furniture</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body13/8.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">up to 70% off | Sport & Furniture</p>
+                      </div>
+                      <p style="color: blue; margin-top: 57px;">see all offer</p>
+                  </div>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Up to 55% off | Lowest prices of the year |...</h4>
+                  <img src="images/body13/9.jpg" alt="" style="width: 100%; height: 70%;">
+                  <p style="color: blue; margin-top: 22px;">see all offer</p>
+              </div>
+              <div class=" col-md mt-3 bg-white me-3 ">
+                  <h4 class="mt-3 mb-2">Up to 70% off | Amazon Brands & more</h4>
+                  <div class="row">
+                      <div class="col-6 "><img src="images/body13/10.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">up to 70% off | Living room furniture</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body13/11.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">up to 60% off | Bedroom Furniture</p>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                      <div class="col-6 "><img src="images/body13/12.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">up to 70% off | Study & office room furniture</p>
+                      </div>
+                      <div class="col-6 "><img src="images/body13/13.jpg" alt="" style="width: 100%; height: 90%;">
+                          <p class="body1para">up to 75% off | view all furniture</p>
+                      </div>
+                      <p style="color: blue; margin-top: 39px;">see all offer</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- body13 ends  -->
+  <!-- body14 start -->
+  <section class="uni-padding me-3">
+      <div class="uni-padding bg-white mt-3 pt-3">
+          <div>
+              <h4 style="font-weight: 600; float: left;">Shop deals in top categories</h4>
+          <p style="color: blue; padding: 5px; float: left; margin-left: 15px;">explore all categories</p>
+          </div>
+          <div class="product-slider2 owl-carousel owl-theme" style="clear:both">
+              <div class="item"><img src="images/body14/1.jpg" alt=""></div>
+              <div class="item"><img src="images/body14/2.jpg" alt=""></div>
+              <div class="item"><img src="images/body14/3.jpg" alt=""></div>
+              <div class="item"><img src="images/body14/4.jpg" alt=""></div>
+              <div class="item"><img src="images/body14/5.jpg" alt=""></div>
+              <div class="item"><img src="images/body14/6.jpg" alt=""></div>
+              <div class="item"><img src="images/body14/7.jpg" alt=""></div>
+              <div class="item"><img src="images/body14/8.jpg" alt="" ></div>
+              <div class="item"><img src="images/body14/9.jpg" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- body14 ends -->
+  <!-- footer start -->
+  <footer class="mt-5">
+      <div class="row">
+          <div class="col-12 bg-white">
+              <hr style="margin-top: 40; color:#37475A">
+              <div class="row">
+                  <div class="col-md-12">
+                      <p style="text-align: center;">See personalized recommendations</p>
+                  </div>
+                  <div class="col-md-12">
+                      <button style="margin-left:43%; padding: 5px 70px; background-color: yellow; border: none;">Sign in</button>
+                  </div>
+                  <div class="col-md-12">
+                      <p style="text-align: center; margin-top: 10px;">New Customer? Start Here</p>
+                  </div>
+              </div>
+              <hr style="margin-top: 20; color:#37475A">
+          </div>
+          <div class="col-12">
+              <h6 style="text-align:center; color: white; background-color: #37475A; padding: 15px 0px; margin-bottom: -3px;">
+                  Back to top</h6>
+          </div>
+          <div class="col-12">
+              <div class="foot-2 row pt-5 pb-5">
+                  <div class="col-md-3">
+                      <ul>
+                          <li>Get To Know Us</li>
+                          <li>About Us</li>
+                          <li>Careers</li>
+                          <li>Press Release</li>
+                          <li>Amazon Science</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <ul>
+                          <li>Contact withUs</li>
+                          <li>Facebook</li>
+                          <li>Twitter</li>
+                          <li>Instagram</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <ul>
+                          <li>Make Money with Us</li>
+                          <li>Sell on Amazon</li>
+                          <li>Sell under Amazon Accelerator</li>
+                          <li>Amazon Global Selling</li>
+                          <li>Become an Affiliate</li>
+                          <li>Fulfillment by Amazon</li>
+                          <li>Advertise your products</li>
+                          <li>Amazon pay on Merchant</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <ul>
+                          <li>Let Us Help You</li>
+                          <li>COVID-19 and Amazon</li>
+                          <li>your Account</li>
+                          <li>Return centre</li>
+                          <li>100% purchase portection</li>
+                          <li>Amazon app download</li>
+                          <li>Amazon Assistant Download</li>
+                          <li>Help</li>
+                      </ul>
+                  </div>
+              </div>
+              <hr style="margin: 0px; color: white;">
+          </div>
+          <div class="col-12">
+              <div class="foot-2 row pt-5">
+                  <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <h2 style="text-align:right; color: white;">Back to top</h2>
+                          </div>
+                          <div class="col-md-6"><button
+                                  style="border:1px solid white; background-color: #232F3E;">English</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <p style="text-align:center; color: white; margin-top: 20px;">Australia Brazil Canada China
+                          France Germany Italy Japan Mexico Netherland Poland Singpore Spain Turkey United Arb
+                          Emirates <br>
+                          United Kingdom United State </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-12"></div>
+      <div class="foot-3 row pt-5">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">AbeBooks</li>
+                  <li>Books,art</li>
+                  <li>& collectibles</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">Amazon Web Service</li>
+                  <li>Scalable cloud</li>
+                  <li>computing services</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">Audible</li>
+                  <li>download</li>
+                  <li>Audio Books</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">DpReviews</li>
+                  <li>Digitals</li>
+                  <li>Photography</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">Idmb</li>
+                  <li>Movies,Tv</li>
+                  <li>& celebrities</li>
+              </ul>
+          </div>
+      </div>
+      <div class="foot-3 row pb-5">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">shopBob</li>
+                  <li>Designer</li>
+                  <li>Fashin Brand</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">Amazon Business</li>
+                  <li>Everything for</li>
+                  <li>your business</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">Prime Now</li>
+                  <li>2-Hours Delivery</li>
+                  <li>on Everyday Item</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <ul>
+                  <li style="color: white; font-weight: bold;">Amazon Prime Music</li>
+                  <li>90 million songs, ad-free</li>
+                  <li>over 15 million podcast episode</li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+          </div>
+      </div>
+      </div>
+  </footer>
+  <!-- footer ends -->
+
+
+
+
+
+
+
+
+  <!--owl setup  -->
+  <script>
+      $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          smartSpeed: 1500,
+          animateIn: 'linear',
+          animateOut: 'linear',
+          autoplayHoverPause: true,
+          responsive: {
+              0: {
+                  items: 2
+              },
+              600: {
+                  items: 4
+              },
+              1000: {
+                  items: 6
+              }
+          }
+      })
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
